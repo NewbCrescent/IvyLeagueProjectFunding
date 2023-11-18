@@ -15,6 +15,8 @@ a {
     text-decoration: none;
 }
 
+/* Header */
+
 .headerDiv {
     min-height: 100vh;
     background-color: beige; /* replace with a background-image */
@@ -69,8 +71,15 @@ a {
 
 /* Ivy League Trip Section */
 
+.section1NavSpace {
+    height: 3rem;
+    width: 10vw;
+    position: absolute;
+    top: calc(100vh - 3rem);
+}
+
 .section1Div {
-    height: calc(105vh + 3rem);
+    height: 105vh;
 
     background-color: burlywood; /* change later to a better color */
 
@@ -78,6 +87,8 @@ a {
     flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
 .section1ImgP {
@@ -104,8 +115,15 @@ a {
 
 /* Fundraiser Section */
 
+.section2NavSpace {
+    height: 3rem;
+    width: 10vw;
+    position: absolute;
+    top: calc(105vh - 3rem);
+}
+
 .section2Div {
-    height: calc(105vh + 3rem);
+    height: 105vh;
 
     background-color: aquamarine; /* change later to a better color */
 
@@ -140,6 +158,8 @@ a {
     padding: 2rem 3rem;
     max-width: 75ch;
 }
+
+/* Footer */
 
 .footerDiv {
     background-color: black;
