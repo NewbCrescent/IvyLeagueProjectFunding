@@ -42,10 +42,15 @@ a {
 }
 
 .headerDiv nav ul li {
-    padding: 1rem 2rem;
+    padding: 1rem 0.5rem;
 }
 
-.headerDiv nav ul li a {
+.headerDiv nav ul li p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.headerDiv nav ul li p a {
     color: white;
     font-weight: 700;
 }
@@ -65,7 +70,7 @@ a {
 /* Ivy League Trip Section */
 
 .section1Div {
-    height: 105vh;
+    height: calc(105vh + 3rem);
 
     background-color: burlywood; /* change later to a better color */
 
@@ -100,7 +105,7 @@ a {
 /* Fundraiser Section */
 
 .section2Div {
-    height: 105vh;
+    height: calc(105vh + 3rem);
 
     background-color: aquamarine; /* change later to a better color */
 
