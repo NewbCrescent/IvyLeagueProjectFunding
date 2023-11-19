@@ -106,6 +106,10 @@ a {
     padding-top: 1rem;
 }
 
+.section1Text {
+    height: 50%;
+}
+
 .section1Text p, .section1Text h2 {
     text-align: center;
     
@@ -150,6 +154,10 @@ a {
 
 .section2ImgP a {
     color: purple;
+}
+
+.section2Text {
+    height: 50%;
 }
 
 .section2Text p, .section2Text h2 {
