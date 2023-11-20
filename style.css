@@ -4,6 +4,26 @@
     }
 }
 
+@media screen and (max-aspect-ratio: 1.4/1) {
+    #headerImg {
+        max-width: 0px;
+        max-height: 0px;
+
+        border: 0px none transparent;
+        border-radius: 0%;
+
+        background-image: none;
+    }
+
+    #headerText {
+        width: 80%;
+        text-align: center;
+
+        top: 50%;
+        left: 50%;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -57,16 +77,40 @@ a {
     font-weight: 700;
 }
 
-.headerDiv > h1 {
-    font-size: 4rem;
-
+.headerText {
     width: fit-content;
-    text-align: center;
+    text-align: left;
 
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 35%;
+    left: 30%;
     transform: translate(-50%, -50%);
+}
+
+.headerText h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.headerText > p {
+    font-size: 2rem;
+}
+
+.headerImg {
+    width: 30rem;
+    height: 30rem;
+
+    border: 2px solid black;
+    border-radius: 50%;
+
+    background-image: url(Images/Main_pic.jpg);
+    background-position: 50% 70%;
+
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 /* Ivy League Trip Section */
@@ -143,8 +187,12 @@ a {
 }
 
 .section2ImgP img {
-    width: 100%; /*change this whole thing later */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
     height: 80%;
+    object-fit: contain;
 }
 
 .section2ImgP p {
