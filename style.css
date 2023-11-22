@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (max-aspect-ratio: 1.54/1) {
+@media screen and (max-aspect-ratio: 1.65/1) {
     #headerImg {
         max-width: 20rem;
         max-height: 20rem;
@@ -24,6 +24,7 @@
 
         top: 45%;
         left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 
@@ -42,7 +43,7 @@ a {
 
 .headerDiv {
     min-height: 100vh;
-    min-height: 100svh;
+    min-height: 100dvh;
 
     background-color: beige; /* replace with a background-image */
 
@@ -88,8 +89,7 @@ a {
 
     position: absolute;
     top: 35%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    left: 10%;
 }
 
 .headerText h1 {
