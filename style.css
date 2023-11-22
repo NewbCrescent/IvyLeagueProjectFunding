@@ -4,22 +4,25 @@
     }
 }
 
-@media screen and (max-aspect-ratio: 1.4/1) {
+@media screen and (max-aspect-ratio: 1.54/1) {
     #headerImg {
-        max-width: 0px;
-        max-height: 0px;
+        max-width: 20rem;
+        max-height: 20rem;
+        width: 60vw;
+        height: 60vw;
 
-        border: 0px none transparent;
-        border-radius: 0%;
+        background-position: 50% 70%;
 
-        background-image: none;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #headerText {
         width: 80%;
         text-align: center;
 
-        top: 50%;
+        top: 45%;
         left: 50%;
     }
 }
@@ -39,6 +42,8 @@ a {
 
 .headerDiv {
     min-height: 100vh;
+    min-height: 100svh;
+
     background-color: beige; /* replace with a background-image */
 
     display: flex;
@@ -96,9 +101,18 @@ a {
     font-size: 2rem;
 }
 
+.headerImgContainer {
+    min-width: 100%;
+    min-height: 95%;
+
+    position: absolute;
+}
+
 .headerImg {
-    width: 30rem;
-    height: 30rem;
+    max-width: 30rem;
+    max-height: 30rem;
+    width: 60vh;
+    height: 60vh;
 
     border: 2px solid black;
     border-radius: 50%;
@@ -110,7 +124,6 @@ a {
     top: 70%;
     left: 80%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
 }
 
 /* Ivy League Trip Section */
@@ -152,6 +165,14 @@ a {
 
 .section1Text {
     height: 50%;
+}
+
+.section1Text h2 {
+    font-size: 2rem;
+}
+
+.section1Text p {
+    font-size: 1.5rem;
 }
 
 .section1Text p, .section1Text h2 {
@@ -206,6 +227,14 @@ a {
 
 .section2Text {
     height: 50%;
+}
+
+.section2Text h2 {
+    font-size: 2rem;
+}
+
+.section2Text p {
+    font-size: 1.5rem;
 }
 
 .section2Text p, .section2Text h2 {
