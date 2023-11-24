@@ -26,6 +26,10 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    #section1Div, #section2Div {
+        height: 150vh;
+    }
 }
 
 @media screen and (max-width: 1175px) and (min-aspect-ratio: 2/1) {
@@ -35,6 +39,10 @@
 
     #headerHeader {
         margin-bottom: 0rem;
+    }
+
+    #section1Div, #section2Div {
+        height: 300vh;
     }
 }
 
@@ -53,7 +61,6 @@ a {
 
 .headerDiv {
     min-height: 100vh;
-    min-height: 100dvh;
 
     background-color: beige; /* replace with a background-image */
 
