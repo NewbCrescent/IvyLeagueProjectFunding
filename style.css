@@ -30,6 +30,10 @@
     #section1Div, #section2Div {
         height: 125vh;
     }
+
+    #section2NavSpace {
+        top: calc(125vh - 6rem)
+    }
 }
 
 @media screen and (max-width: 1175px) and (min-aspect-ratio: 2/1) {
@@ -42,7 +46,11 @@
     }
 
     #section1Div, #section2Div {
-        height: 150vh;
+        height: 175vh;
+    }
+
+    #section2NavSpace {
+        top: calc(175vh - 6rem)
     }
 }
 
