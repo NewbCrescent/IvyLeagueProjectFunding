@@ -28,7 +28,7 @@
     }
 
     #section1Div, #section2Div {
-        height: 125vh;
+        height: calc(125vh - 3rem);
     }
 
     #Fundraiser {
@@ -46,7 +46,7 @@
     }
 
     #section1Div, #section2Div {
-        height: 175vh;
+        height: calc(175vh - 3rem);
     }
 
     #Fundraiser {
