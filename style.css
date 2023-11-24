@@ -8,8 +8,8 @@
     #headerImg {
         max-width: 20rem;
         max-height: 20rem;
-        width: 60vw;
-        height: 60vw;
+        width: 55vw;
+        height: 55vw;
 
         background-position: 50% 70%;
 
@@ -31,6 +31,10 @@
 @media screen and (max-width: 1175px) and (min-aspect-ratio: 2/1) {
     #headerText {
         width: 50ch;
+    }
+
+    #headerHeader {
+        margin-bottom: 0rem;
     }
 }
 
@@ -142,7 +146,7 @@ a {
 }
 
 .section1Div {
-    height: 105vh;
+    height: calc(100vh - 3rem);
 
     background-color: burlywood; /* change later to a better color */
 
@@ -160,13 +164,22 @@ a {
 }
 
 .section1ImgP img {
-    width: 100%; /*change this whole thing later */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
     height: 80%;
+    object-fit: contain;
 }
 
 .section1ImgP p {
     text-align: center;
-    padding-top: 1rem;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    width: fit-content;
+
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .section1Text {
@@ -194,11 +207,11 @@ a {
     height: 3rem;
     width: 10vw;
     position: absolute;
-    top: calc(105vh - 3rem);
+    top: calc(100vh - 6rem);
 }
 
 .section2Div {
-    height: 105vh;
+    height: calc(100vh - 3rem);
 
     background-color: aquamarine; /* change later to a better color */
 
