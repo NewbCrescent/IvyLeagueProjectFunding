@@ -31,7 +31,7 @@
         height: 125vh;
     }
 
-    #section2NavSpace {
+    #Fundraiser {
         top: calc(125vh - 6rem)
     }
 }
@@ -49,7 +49,7 @@
         height: 175vh;
     }
 
-    #section2NavSpace {
+    #Fundraiser {
         top: calc(175vh - 6rem)
     }
 }
