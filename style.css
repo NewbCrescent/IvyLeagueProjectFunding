@@ -28,7 +28,7 @@
     }
 
     #section1Div, #section2Div {
-        height: 150vh;
+        height: 125vh;
     }
 }
 
@@ -42,7 +42,7 @@
     }
 
     #section1Div, #section2Div {
-        height: 300vh;
+        height: 150vh;
     }
 }
 
@@ -167,7 +167,7 @@ a {
 
 .section1ImgP {
     width: 50%;
-    height: 40%;
+    height: 50%;
 }
 
 .section1ImgP img {
@@ -181,7 +181,7 @@ a {
 
 .section1ImgP p {
     text-align: center;
-    margin: 0.5em auto;
+    margin: 1em auto;
     padding: 0.5em;
     width: fit-content;
 
@@ -230,7 +230,7 @@ a {
 
 .section2ImgP {
     width: 50%;
-    height: 40%;
+    height: 50%;
 }
 
 .section2ImgP img {
