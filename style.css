@@ -52,6 +52,10 @@
     #Fundraiser {
         top: calc(175vh - 6rem)
     }
+
+    .section1ImgP.section1ImgP p {
+        margin-top: 0.25em;
+    }
 }
 
 * {
