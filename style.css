@@ -27,7 +27,7 @@
         transform: translate(-50%, -50%);
     }
 
-    #section1Div, #section2Div {
+    .sectionDiv.sectionDiv {
         height: calc(125vh - 3rem);
     }
 
@@ -45,7 +45,7 @@
         margin-bottom: 0rem;
     }
 
-    #section1Div, #section2Div {
+    .sectionDiv.sectionDiv {
         height: calc(175vh - 3rem);
     }
 
@@ -53,8 +53,8 @@
         top: calc(175vh - 6rem)
     }
 
-    .section1ImgP.section1ImgP p {
-        margin-top: 0.25em;
+    #section1 .sectionImgP p {
+        margin-top: 0.25em !important;
     }
 }
 
@@ -157,17 +157,15 @@ a {
 
 /* Ivy League Trip Section */
 
-.section1NavSpace {
+.sectionNavSpace {
     height: 3rem;
     width: 10vw;
     position: absolute;
     top: calc(100vh - 3rem);
 }
 
-.section1Div {
+.sectionDiv {
     height: calc(100vh - 3rem);
-
-    background-color: burlywood; /* change later to a better color */
 
     display: flex;
     flex-wrap: wrap-reverse;
@@ -177,12 +175,16 @@ a {
     position: relative;
 }
 
-.section1ImgP {
+#section1 {
+    background-color: burlywood; /* change later to a better color */
+}
+
+.sectionImgP {
     width: 50%;
     height: 50%;
 }
 
-.section1ImgP img {
+.sectionImgP img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -191,7 +193,7 @@ a {
     object-fit: contain;
 }
 
-.section1ImgP p {
+#section1 .sectionImgP p {
     text-align: center;
     margin: 1em auto;
     padding: 0.5em;
@@ -201,19 +203,19 @@ a {
     border-radius: 5px;
 }
 
-.section1Text {
+.sectionText {
     height: 50%;
 }
 
-.section1Text h2 {
+.sectionText h2 {
     font-size: 2rem;
 }
 
-.section1Text p {
+.sectionText p {
     font-size: 1.5rem;
 }
 
-.section1Text p, .section1Text h2 {
+.sectionText p, .sectionText h2 {
     text-align: center;
     
     padding: 2rem 3rem;
@@ -222,64 +224,17 @@ a {
 
 /* Fundraiser Section */
 
-.section2NavSpace {
-    height: 3rem;
-    width: 10vw;
-    position: absolute;
-    top: calc(100vh - 6rem);
-}
-
-.section2Div {
-    height: calc(100vh - 3rem);
-
+#section2 {
     background-color: aquamarine; /* change later to a better color */
-
-    display: flex;
-    flex-wrap: wrap-reverse;
-    align-items: center;
-    justify-content: center;
 }
 
-.section2ImgP {
-    width: 50%;
-    height: 50%;
-}
-
-.section2ImgP img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    width: auto;
-    height: 80%;
-    object-fit: contain;
-}
-
-.section2ImgP p {
+#section2 .sectionImgP p {
     text-align: center;
     padding-top: 1rem;
 }
 
-.section2ImgP a {
+.sectionImgP a {
     color: purple;
-}
-
-.section2Text {
-    height: 50%;
-}
-
-.section2Text h2 {
-    font-size: 2rem;
-}
-
-.section2Text p {
-    font-size: 1.5rem;
-}
-
-.section2Text p, .section2Text h2 {
-    text-align: center;
-    
-    padding: 2rem 3rem;
-    max-width: 75ch;
 }
 
 /* Footer */
